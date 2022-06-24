@@ -1,0 +1,7 @@
+<ngx-masonry class="mansory-container" 
+              [ordered]="false" 
+              [updateLayout]="true">
+    <div ngxMasonryItem  class="masonry-item" *ngFor="let item of resultados">
+     <img [src]="item.images.downsized_large.url" alt="">
+   </div>
+</ngx-masonry>
